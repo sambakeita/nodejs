@@ -1,0 +1,78 @@
+
+body, html{
+  margin: 0px;
+  padding: 0px;
+  
+}
+h1 {
+  color: white;
+  font-size: 45px
+}
+
+.mon-header{
+  background-color: rgba(95,20,230,0.6) !important;
+  background-image: url(../images/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 350px;
+  max-width: 100%;
+  margin-bottom: 80px;
+  color: #ddd;
+  text-align: center;
+  font-size: 15px;
+  
+  
+}
+.conteneur-logo{
+  margin: 20px;
+  color: aliceblue;
+  background-color: rgba(0,0,0,0.5);
+  display: inline-block;
+  float: left;
+  z-index: 5;
+  
+}
+.body-inscription{
+    background-image: url(images/avocat.jpg);
+    padding: 5%;
+}
+
+.formulaire{
+  border: 2px red bold;
+  background-color: azure;
+  height: 50%;
+  padding-top: 25px;
+  
+}
+
+
+.page-footer{
+  color: white;
+  background-color: grey;
+}
+
+button{
+  margin-top: 5px;
+  border-radius: 25px;
+
+}
+button:hover, button:focus
+{
+    color: #fff;
+    background-color: #c13c0d;
+}
+
+footer{
+  color: #fff;
+  color: white;
+  background-color: #000;
+  font-size: 15px;
+  text-decoration: none;
+  margin-top: 25px;
+  padding: 30px 15px 50px 50px ; 
+}
+a{
+  text-decoration: none;
+  color: orange;
+  font-style: italic;
+}

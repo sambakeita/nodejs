@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta charset="utf-8">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script type="text/javascript" src="js/script.js"></script>
+</head>
+<body class="p-5" style="background-image: url(../dossier/images/pomme.jpg) ;background-size: cover; background-repeat: no-repeat;">
+	<div class="row" style="opacity: 0.7; color: white; margin-bottom: 25px;">
+		<div class="col-sm-6 col-sm-offset-3" style="margin-top: 80px";>
+		    <h3>Veuillez-vous inscrire si ce n'est pas encore fait !</h3>
+		    <form role="form" id="contactForm"  method="POST" style="background-color: green;color: #000">
+		    	<div class="row">
+            <div class="form-group col-sm-6">
+                <label for="name" class="h4">Nom</label>
+                <input type="text" class="form-control" id="nom" placeholder="Entrer votre nom" name="nom">
+            </div>
+            <div class="form-group col-sm-6">
+                <label for="name" class="h4">Prenoms</label>
+                <input type="text" class="form-control" id="Prenoms" placeholder="Entrer votre Prenoms" required name="prenoms">
+            </div>
+            <div class="form-group col-sm-6">
+                <label for="email" class="h4">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter email" required name="email">
+            </div>
+            <div class="form-group col-sm-6">
+                <label for="pass" class="h4">mot de passe</label>
+                <input type="password" class="form-control" id="pass" placeholder="Entrer votre mot de passe" required name="pass">
+            </div>
+            </div class=col-sm-12 style="margin-bottom: 50px;">
+                <button type="submit" id="form-submit" class="btn btn-success btn-lg pull-center ">Envoyer</button>
+             </div>
+
+            <div id="msgSubmit" class="h3 text-center hidden">Message Submitted!</div>
+             
+            </form>
+        </div>
+        
+        
+		</div>
+	</div>
+</body>
+</html>
